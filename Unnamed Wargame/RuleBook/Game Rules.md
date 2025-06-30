@@ -9,7 +9,7 @@ The last remaining mission is the active one.
 
 ### Map Setup
 Based on the active mission, setup the map for it.
-Maps are hexagonal with 5 tiles on each side (61 tiles total)
+Maps are hexagonal with 8 tiles on each side (169 tiles total)
 
 ### Set Player Order
 Randomly choose a player, that player chooses if they go first or second.

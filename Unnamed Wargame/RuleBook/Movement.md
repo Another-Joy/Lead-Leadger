@@ -6,6 +6,7 @@ In each movement a vehicle does, it can turn once in addition to moving forward 
 N, L and M Vehicles can turn and move in any order, but H must move forward and then turn.
 Instead of moving, a vehicle can remain stationary and only turn. This still costs 1 tile of movement
 Vehicles can also move backwards, following the same rules, but each tile moved costs double.
+
 A Vehicle can only move into a tile if the slots it would occupy (given its future direction) are free. In this case, for non-H vehicles, consider the slots it would occupy after turning after the movement (and if it didn't already used this move's turn)
 
 ### Aircraft
