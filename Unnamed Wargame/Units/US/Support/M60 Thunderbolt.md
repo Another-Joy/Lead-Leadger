@@ -6,5 +6,5 @@ Artillery with low mobility
 
 | Name           | R   | N   | L   | M   | H   | F   | Keywords             |
 | -------------- | --- | --- | --- | --- | --- | --- | -------------------- |
-| 155mm Howitzer | 6   | 4-  | 4-  | 5+  | 8+  | 2   | Indirect Fire, Blast |
+| 155mm Howitzer | 8   | 4-  | 4-  | 5+  | 8+  | 2   | Indirect Fire, Blast |
 Artillery

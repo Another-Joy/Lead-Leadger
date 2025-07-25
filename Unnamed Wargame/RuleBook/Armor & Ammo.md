@@ -30,6 +30,6 @@ Modifier to your penetration affects vs all armor tiers, unless stated otherwise
 Protection X means you have -X AP if rolling up, or +X AP if rolling down. This means a Higher X makes a roll harder
 ## Armor Types
 - Sloped: -2 AP, unless using Capped Rounds. Ignore this bonus if rolling down
-- Spaced: -2 AP agains HE Rounds. Ignore this bonus if rolling down
-- Reactive: -2AP vs DS Rounds. Ignore this bonus if rolling down
+- Reactive: -2AP vs HE Rounds. Ignore this bonus if rolling down
+- Composite: -2 AP vs kinetic Rounds. Ignore this bonus if rolling down
 

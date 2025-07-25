@@ -2,7 +2,7 @@ Light tank with high mobility, used mainly against Light and Medium Tanks
 
 | M   | A   | C   | H   |
 | --- | --- | --- | --- |
-| 4   | L   | 0   | 4   |
+| 4   | L   | 0   | 3   |
 
 | Name    | R   | N   | L   | M   | H   | F   | Keywords |
 | ------- | --- | --- | --- | --- | --- | --- | -------- |

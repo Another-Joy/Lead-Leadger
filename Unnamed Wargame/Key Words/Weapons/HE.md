@@ -1,3 +1,5 @@
+TODO: rework
+
 High-Explosive (HE) Ammo can deal bonus damage to vehicles and fortifications
 - +1 damage to F
 - When shooting at a vehicle, if you Wounded it, afterward roll 2d6 and check the Explosion Table and that vehicles Ammo count. If the roll is equal or higher that the Explosion Value, the Vehicle is immediately destroyed
