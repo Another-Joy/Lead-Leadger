@@ -1,10 +1,11 @@
-Light tank with high mobility, used mainly against Light and Medium Tanks 
+Light Tank with high mobility, used mainly against Light and Medium Tanks 
 
 | M   | A   | C   | H   |
 | --- | --- | --- | --- |
-| 4   | L   | 0   | 3   |
+| 3   | L   | 0   | 3   |
 
 | Name    | R   | N   | L   | M   | H   | F   | Keywords |
 | ------- | --- | --- | --- | --- | --- | --- | -------- |
-| 50mm AP | 2   | NA  | 3-  | 4+  | 8+  | 1   | Assault  |
-Vehicle, Tank
+| 60mm AC | 3   | 1-  | 1+  | 4+  | NA  | 1   | Assault  |
+
+Vehicle, Light Tank

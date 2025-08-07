@@ -1,4 +1,4 @@
-Light, Fast Jeep, with the primary function of transporting infantry 
+Light, Fast Jeep, with the primary function of fast point capture
 
 | M   | A   | C   | H   |
 | --- | --- | --- | --- |
@@ -6,9 +6,9 @@ Light, Fast Jeep, with the primary function of transporting infantry
 
 Weaponry:
 
-| Name                | R   | N   | L   | M   | H   | F   | Keywords |
-| ------------------- | --- | --- | --- | --- | --- | --- | -------- |
-| 12.7×99mm (.50 BMG) | 2   | 6-  | 5+  | NA  | NA  | NA  |          |
+| Name      | R   | N   | L   | M   | H   | F   | Keywords |
+| --------- | --- | --- | --- | --- | --- | --- | -------- |
+| 7.62mm MG | 2   | 1+  | 6+  | NA  | NA  | NA  |          |
 
 Abilities:
 
@@ -16,10 +16,10 @@ Abilities:
 
 Cost:
 
-| MP  | Mat | Sup | Adv |
-| --- | --- | --- | --- |
-|     |     |     |     |
+| MP  | Mat |
+| --- | --- |
+|     |     |
 
 
 Tags:
-Vehicle, Armored Car, Transport
+Vehicle, Armored Car
