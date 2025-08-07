@@ -4,7 +4,22 @@ Light, Fast Jeep, with the primary function of transporting infantry
 | --- | --- | --- | --- |
 | 4   | L   | 1   | 3   |
 
-| Name | R   | N   | L   | M   | H   | F   | Keywords |
-| ---- | --- | --- | --- | --- | --- | --- | -------- |
-| LMG  | 2   | 4-  | 6+  | NA  | NA  | NA  |          |
+Weaponry:
+
+| Name                | R   | N   | L   | M   | H   | F   | Keywords |
+| ------------------- | --- | --- | --- | --- | --- | --- | -------- |
+| 12.7×99mm (.50 BMG) | 2   | 6-  | 5+  | NA  | NA  | NA  |          |
+
+Abilities:
+
+
+
+Cost:
+
+| MP  | Mat | Sup | Adv |
+| --- | --- | --- | --- |
+|     |     |     |     |
+
+
+Tags:
 Vehicle, Armored Car, Transport
