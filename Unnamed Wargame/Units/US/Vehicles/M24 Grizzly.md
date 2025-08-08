@@ -8,4 +8,17 @@ IFV with middle mobility, a turret used against Light and sometimes Medium Tanks
 | --------- | --- | --- | --- | --- | --- | --- | -------- |
 | 50mm AC   | 3   | 2-  | 2+  | 4+  | NA  | 1   | Linked   |
 | Turret MG | 2   | 4-  | 6+  | NA  | NA  | NA  | Linked   |
+
+Abilities:
+
+
+
+Cost:
+
+| MP  | Mat |
+| --- | --- |
+| 20  | 60  |
+
+
+Tags:
 Vehicle, IFV

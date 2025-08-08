@@ -6,4 +6,17 @@
 | Name           | R   | N   | L   | M   | H   | F   | Keywords |
 | -------------- | --- | --- | --- | --- | --- | --- | -------- |
 | 5.56×45mm NATO | 2   | 1+  | 7+  | NA  | NA  | NA  | Assault  |
+
+Abilities:
+
+
+
+Cost:
+
+| MP  | Mat |
+| --- | --- |
+| 50  | 10  |
+
+
+Tags:
 Infantry, 

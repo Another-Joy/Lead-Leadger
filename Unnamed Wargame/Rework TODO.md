@@ -59,10 +59,10 @@ APS: 5+/3+ dodge
 |                 | 30×173mm            | 5-           | 3+        | 6+         | NA        | 1    | 10        |
 |                 | 40mm CTA            | 4-           | 2+        | 5+         | NA        | 1    | 11        |
 
-| Type | Purpose            | Tier                                | Armament                      |
-| ---- | ------------------ | ----------------------------------- | ----------------------------- |
-| APC  | Infantry Transport | Light, Medium (rare), Heavy (rarer) | MGs, GLs                      |
-| JLTV | Utility            | Light                               | ...                           |
-| IFV  | Anti-Infanty       | Medium, Heavy (rare)                | AutoCannons (15-50mm), MGs    |
-| MBT  | Anti-Tank          | Heavy                               | Cannons (100-150mm)           |
-| LT   | Anti-Tank          | Light                               | AutoCannons (50mm+), Cannons  |
+| Type | Purpose            | Tier                                | Armament                     |
+| ---- | ------------------ | ----------------------------------- | ---------------------------- |
+| APC  | Infantry Transport | Light, Medium (rare), Heavy (rarer) | MGs, GLs                     |
+| JLTV | Utility            | Light                               | ...                          |
+| IFV  | Anti-Infanty       | Medium, Heavy (rare)                | AutoCannons (15-50mm), MGs   |
+| MBT  | Anti-Tank          | Heavy                               | Cannons (100-150mm)          |
+| LT   | Anti-Tank          | Light, Medium (rare)                | AutoCannons (50mm+), Cannons |

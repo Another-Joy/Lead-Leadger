@@ -7,4 +7,17 @@ MBT used against medium tanks
 | Name       | R   | N   | L   | M   | H   | F   | Keywords |
 | ---------- | --- | --- | --- | --- | --- | --- | -------- |
 | 105mm HEAT | 3   | NA  | 5-  | 2+  | 5+  | NA  |          |
+
+Abilities:
+
+
+
+Cost:
+
+| MP  | Mat |
+| --- | --- |
+| 20  | 70  |
+
+
+Tags:
 Vehicle, MBT

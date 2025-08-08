@@ -8,4 +8,16 @@ Light Tank with high mobility, used mainly against Light and Medium Tanks
 | ------- | --- | --- | --- | --- | --- | --- | -------- |
 | 60mm AC | 3   | 1-  | 1+  | 4+  | NA  | 1   | Assault  |
 
+Abilities:
+
+
+
+Cost:
+
+| MP  | Mat |
+| --- | --- |
+| 20  | 40  |
+
+
+Tags:
 Vehicle, Light Tank
