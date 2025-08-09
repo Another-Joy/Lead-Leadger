@@ -5,7 +5,7 @@
 
 | Name         | R   | N   | L   | M   | H   | F   | Keywords  |
 | ------------ | --- | --- | --- | --- | --- | --- | --------- |
-| 9mm SMG | 1   | 3+  | NA  | NA  | NA  | NA  | Burst 0 |
+| 9mm SMG | 1   | 3+  | NA  | NA  | NA  | NA  | Assault, Burst 0 |
 
 Abilities:
 
