@@ -21,3 +21,5 @@ Cost:
 
 Tags:
 Vehicle, MBT
+
+- [x] Verified

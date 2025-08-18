@@ -11,7 +11,7 @@ Weaponry:
 | 7.62mm MG | 2   | 1+  | 6+  | NA  | NA  | NA  |          |
 
 Abilities:
-- Passive: Attacks against this unit have +1 AP when rolling Up
+- Passive: *Brittle* - Attacks against this unit have +1 AP when rolling Up
 
 
 Cost:
