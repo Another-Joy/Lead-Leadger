@@ -7,7 +7,7 @@ SPG Tank Hunter, Used mainly against medium and heavy tanks
 
 | Name         | R   | N   | L   | M   | H   | F   | Keywords      |
 | ------------ | --- | --- | --- | --- | --- | --- | ------------- |
-| 130mm APFSDS | 5   | NA  | 1-  | 6-  | 3+  | NA  | Long, Frontal |
+| 130mm APFSDS | 3   | NA  | 1-  | 6-  | 3+  | NA  | Long, Frontal |
 
 Abilities:
 - Sloped Armor
@@ -17,7 +17,7 @@ Cost:
 
 | MP  | Mat |
 | --- | --- |
-| 20  | 60  |
+| 20  | 70  |
 
 
 Tags:

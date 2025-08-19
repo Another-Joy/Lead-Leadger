@@ -4,9 +4,9 @@ Light Tank with high mobility, used mainly against Light and Medium Tanks
 | --- | --- | --- | --- |
 | 3   | L   | 0   | 3   |
 
-| Name    | R   | N   | L   | M   | H   | F   | Keywords |
-| ------- | --- | --- | --- | --- | --- | --- | -------- |
-| 60mm AC | 3   | 1-  | 1+  | 4+  | NA  | 1   | Assault  |
+| Name       | R   | N   | L   | M   | H   | F   | Keywords |
+| ---------- | --- | --- | --- | --- | --- | --- | -------- |
+| 105mm HEAT | 3   | NA  | 5-  | 3+  | 5+  | NA  | Assault  |
 
 Abilities:
 
@@ -16,7 +16,7 @@ Cost:
 
 | MP  | Mat |
 | --- | --- |
-| 20  | 50  |
+| 20  | 60  |
 
 
 Tags:
