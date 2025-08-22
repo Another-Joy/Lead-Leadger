@@ -1,5 +1,10 @@
 Shorter range and faster movement, this Regiment's motto is "in their face". Just hope your enemies didn't bring scopes...
 
++Movement
+=Armor
+++Firepower (at CQB)
+-Range
+
 [[Centrurion Squad]] - Infantry with short range smgs with rapid fire for buildings
 [[Transport]] - Transport with Assault LMG
 [[L Hunter]] - Tank hunter vs L armor. 

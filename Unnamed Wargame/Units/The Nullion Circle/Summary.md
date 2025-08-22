@@ -1,0 +1,1 @@
+What can't see you, can't hurt you. Specialized in disruption and guerrila tactics, they are rarely hired on their own, but make an essential support when the battle looks grim

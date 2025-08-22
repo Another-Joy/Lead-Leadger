@@ -1,5 +1,11 @@
 Basic Regiment. Ideal for beginners
 
+=Movement
+=Armor
+=Firepower
+=Range
+
+
 [[M8 Coyote]] - Light, Fast Jeep, with the primary function of transporting infantry 
 [[M11 Jackal]] - Lightly armored Car equipped with a small machine gun 
 [[M14 Puma]] - Light tank with high mobility, used mainly against Medium Tanks 
