@@ -21,13 +21,13 @@
 
 | **Armor Type ↓ / Ammo Type →** | AP  | APFSDS | HEAT | Tandem HEAT | HESH | Auto- cannon | RPG | Top-Attack ATGM |
 | ------------------------------ | --- | ------ | ---- | ----------- | ---- | ------------ | --- | --------------- |
-| **Sloped**                     | ⬤   | ◐      | ◐    | ◐           | ◐    | ⬤            | ◐   | ○               |
-| **Composite**                  | ◐   | ◐      | ⬤    | ○           | ◐    | ◐            | ◐   | ◐               |
-| **ERA**                        | ◐   | ◐      | ⬤    | ◐           | ◐    | ◐            | ⬤   | ◐               |
+| **Sloped**                     | ◐   | ○      | ○    | ○           | ○    | ⬤            | ◐   | ○               |
+| **Composite**                  | ◐   | ◐      | ◐    | ◐           | ◐    | ⬤            | ⬤   | ○               |
+| **ERA**                        | ◐   | ◐      | ◐    | ○           | ◐    | ◐            | ⬤   | ◐               |
 | **NERA**                       | ○   | ○      | ◐    | ◐           | ◐    | ○            | ◐   | ○               |
-| **Spaced**                     | ◐   | ○      | ⬤    | ◐           | ◐    | ◐            | ⬤   | ○               |
+| **Spaced**                     | ◐   | ○      | ◐    | ◐           | ◐    | ◐            | ⬤   | ○               |
 | **Slat**                       | ○   | ○      | ◐    | ○           | ◐    | ○            | ⬤   | ○               |
-| **APS (Hardkill)**             | ◐   | ◐      | ◐    | ◐           | ◐    | ○            | ⬤   | ◐               |
+| **APS (Hardkill)**             | ◐   | ○      | ⬤    | ◐           | ◐    | ○            | ⬤   | ⬤               |
 - **⬤ Strong** = Effective counter (hard to penetrate)
 - **◐ Moderate** = Partial effectiveness (some damage likely)
 - ○ **Weak / None** = No effective protection
@@ -35,7 +35,7 @@
 Ignore if rolling down:
 Sloped, Composite, NERA, Spaced, Slat: -1/2 AP
 ERA: -2/4 AP, 2 uses per battle
-APS: 5+/3+ dodge
+APS: 6+/4+ dodge
 
 | **Ammo Type**   | **Caliber**         | **No Armor** | **Light** | **Medium** | **Heavy** | Fort | Pen Score |
 | --------------- | ------------------- | ------------ | --------- | ---------- | --------- | ---- | --------- |
