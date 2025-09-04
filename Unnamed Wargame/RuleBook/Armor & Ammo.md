@@ -18,7 +18,7 @@ Each unit can have multiple guns, each with different effectiveness against each
 Matching directly the ammo and the armor always gives a Wound*.
 
 ## Penetration Rolls
-When checking penetration, roll a d6, and you score a Wound based on the result.
+When checking penetration, roll a d12, and you score a Wound based on the result.
 
 You will see the following symbols:
 - 2- : Wound if you rolled a 2 or lower. This is "[[Definitions Archive#Rolling Down|Rolling Down]]"
