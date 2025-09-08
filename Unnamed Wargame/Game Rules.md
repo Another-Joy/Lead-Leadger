@@ -40,7 +40,7 @@ The same unit can be activated any number of times in a row.
 When activating a Unit, it can either make a move action or an attack action, unless stated otherwise.
 
 ### Move Actions
-- Move the unit up to their Movement Stat. Restrictions are based on unit type.
+- Move the unit up to their Movement Stat. Restrictions are based on unit type and are explained in the "Extra Rules / Movement Restrictions" section.
 	- Moving into buildings and into enemy tiles does not have an extra cost.
 	- Moving out of Enemy Occupied Buildings and enemy tiles costs double movement.
 - Disembark from a transport, by moving up to 1 tile.
@@ -48,7 +48,7 @@ When activating a Unit, it can either make a move action or an attack action, un
 
 
 ### Attack Actions
-- Shoot a unit. Repeatable for each weapon the unit has that can shoot, and can target different units with different weapons.
+- Shoot a unit. Repeatable for each weapon the unit has that can shoot, and can target different units with different weapons. Attacking fortifications works differently, and is explained in the "Fortifications / Fortification Damage" section. 
 	- The target unit must be within range of the weapon (denoted by R) and within LoS.
 	- Check the targets Armor and the weapon's Penetration Roll.
 	- Roll for penetration, then add any effect onto the rolled value
@@ -56,7 +56,8 @@ When activating a Unit, it can either make a move action or an attack action, un
 - Capture a Building, by turning its Pips to your color. When turning pips, if you turn a neutral one, instead turn two.
 
 
-
+## Fortifications
+When a fortification has less health than the total of the units inside, each make attacks until the total of pips is lower or equal to the fortification's
 
 
 
