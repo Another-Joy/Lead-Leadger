@@ -5,7 +5,7 @@
 
 | Name | R   | N   | L   | M   | H   | F   | Keywords        |
 | ---- | --- | --- | --- | --- | --- | --- | --------------- |
-| .300 | 2   | 1+  | 5+  | NA  | NA  | NA  | Long, Precision |
+| .300 | 4   | 1+  | 9+  | NA  | NA  | NA  | Long, Precision |
 
 Abilities:
 

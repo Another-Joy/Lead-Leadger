@@ -6,7 +6,7 @@ MBT used against medium tanks
 
 | Name       | R   | N   | L   | M   | H   | F   | Keywords |
 | ---------- | --- | --- | --- | --- | --- | --- | -------- |
-| 105mm HEAT | 3   | NA  | 5-  | 3+  | 5+  | NA  |          |
+| 105mm HEAT | 2   | NA  | 8-  | 4+  | 9+  | NA  |          |
 
 Abilities:
 

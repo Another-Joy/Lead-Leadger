@@ -6,7 +6,7 @@ Artillery with low mobility
 
 | Name  | R   | N   | L   | M   | H   | F   | Keywords             |
 | ----- | --- | --- | --- | --- | --- | --- | -------------------- |
-| 155mm | 8   | 5-  | 3+  | 4+  | NA  | 2   | Indirect Fire, Blast |
+| 155mm | 8   | 9-  | 5+  | 9+  | 13+ | 2   | Indirect Fire, Blast |
 
 Abilities:
 

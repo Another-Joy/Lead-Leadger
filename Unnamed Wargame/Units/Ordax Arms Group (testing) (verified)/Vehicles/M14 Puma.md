@@ -6,7 +6,7 @@ Light Tank with high mobility, used mainly against Light and Medium Tanks
 
 | Name       | R   | N   | L   | M   | H   | F   | Keywords |
 | ---------- | --- | --- | --- | --- | --- | --- | -------- |
-| 105mm HEAT | 3   | NA  | 5-  | 3+  | 5+  | NA  | Assault  |
+| 105mm HEAT | 2   | NA  | 8-  | 4+  | 9+  | NA  | Assault  |
 
 Abilities:
 

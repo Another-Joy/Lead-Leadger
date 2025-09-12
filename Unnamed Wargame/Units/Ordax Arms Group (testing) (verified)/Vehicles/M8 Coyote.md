@@ -8,7 +8,7 @@ Weaponry:
 
 | Name      | R   | N   | L   | M   | H   | F   | Keywords |
 | --------- | --- | --- | --- | --- | --- | --- | -------- |
-| 7.62mm MG | 2   | 1+  | 6+  | NA  | NA  | NA  |          |
+| 7.62mm MG | 2   | 2+  | 11+ | NA  | NA  | NA  |          |
 
 Abilities:
 - Passive: *Brittle* - Attacks against this unit have +1 AP when rolling Up

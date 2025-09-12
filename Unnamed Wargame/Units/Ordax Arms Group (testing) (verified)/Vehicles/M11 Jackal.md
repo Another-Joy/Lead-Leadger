@@ -8,7 +8,7 @@ Weaponry:
 
 | Name        | R   | N   | L   | M   | H   | F   | Keywords |
 | ----------- | --- | --- | --- | --- | --- | --- | -------- |
-| 20×102mm AC | 2   | 5-  | 4+  | NA  | NA  | NA  |          |
+| 20×102mm AC | 2   | 11- | 7+  | 13+ | NA  | NA  |          |
 
 Abilities:
 

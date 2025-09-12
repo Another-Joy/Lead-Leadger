@@ -5,7 +5,7 @@
 
 | Name    | R   | N   | L   | M   | H   | F   | Keywords |
 | ------- | --- | --- | --- | --- | --- | --- | -------- |
-| 9mm SMG | 1   | 3+  | NA  | NA  | NA  | NA  | Assault  |
+| 9mm SMG | 1   | 5+  | NA  | NA  | NA  | NA  | Assault  |
 
 Abilities:
 
