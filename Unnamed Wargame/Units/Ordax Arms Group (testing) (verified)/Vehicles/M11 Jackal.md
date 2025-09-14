@@ -4,8 +4,6 @@ APC equipped with a small auto-cannon and infantry transport capability
 | --- | --- | --- | --- |
 | 3   | L   | 0   | 4   |
 
-Weaponry:
-
 | Name        | R   | N   | L   | M   | H   | F   | Keywords |
 | ----------- | --- | --- | --- | --- | --- | --- | -------- |
 | 20×102mm AC | 2   | 11- | 7+  | 13+ | NA  | NA  |          |
@@ -18,7 +16,7 @@ Cost:
 
 | MP  | Mat |
 | --- | --- |
-| 30  | 40  |
+| 30  | 35  |
 
 
 Tags:

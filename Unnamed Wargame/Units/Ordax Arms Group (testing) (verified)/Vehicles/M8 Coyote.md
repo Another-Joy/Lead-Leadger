@@ -4,8 +4,6 @@ Light, Fast Jeep, with the primary function of fast point capture
 | --- | --- | --- | --- |
 | 4   | L   | 1   | 3   |
 
-Weaponry:
-
 | Name      | R   | N   | L   | M   | H   | F   | Keywords |
 | --------- | --- | --- | --- | --- | --- | --- | -------- |
 | 7.62mm MG | 2   | 2+  | 11+ | NA  | NA  | NA  |          |
