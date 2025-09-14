@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="my-tactical-game-cat" name="Sample Faction" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="my-tactical-game-gst" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="army-list" name="Faction Army List" hidden="false">
+      <categoryLinks>
+        <categoryLink id="6ba0-8ed2-42c9-c37a" name="Infantry" hidden="false" targetId="inf" primary="false"/>
+        <categoryLink id="c350-de5d-326c-b935" name="Vehicle" hidden="false" targetId="veh" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="5ea6-ee15-ded5-ba6e" name="Rookie Squad" hidden="false" collective="false" import="true" targetId="a771-1d6f-7d4d-0684" type="selectionEntry"/>
+    <entryLink id="86b2-d31c-e1d3-1793" name="Longshot Duo" hidden="false" collective="false" import="true" targetId="3df1-08ac-cda7-701e" type="selectionEntry"/>
+    <entryLink id="501b-8924-31ff-0e36" name="M11 Jackal" hidden="false" collective="false" import="true" targetId="ca6f-8cea-a2a8-b933" type="selectionEntry"/>
+    <entryLink id="37cf-77ae-200b-bf0a" name="M14 Puma" hidden="false" collective="false" import="true" targetId="9c86-ab7f-3185-e119" type="selectionEntry"/>
+    <entryLink id="be1b-ac08-7d03-65a6" name="M16 Badger" hidden="false" collective="false" import="true" targetId="a065-ded7-f5a0-4bd4" type="selectionEntry"/>
+    <entryLink id="c219-f61c-68df-22d9" name="M24 Grizzly" hidden="false" collective="false" import="true" targetId="4ab1-014e-a843-6f19" type="selectionEntry"/>
+    <entryLink id="b5ef-512d-9236-aede" name="M29 Vindicator" hidden="false" collective="false" import="true" targetId="f755-63c6-d45c-c547" type="selectionEntry"/>
+    <entryLink id="6290-ddd2-ca57-b05b" name="M51 Bison" hidden="false" collective="false" import="true" targetId="9478-65fe-686d-c298" type="selectionEntry"/>
+    <entryLink id="eafb-3357-8271-9ec8" name="M8 Coyote" hidden="false" collective="false" import="true" targetId="fea9-33b1-6b06-79c7" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="a771-1d6f-7d4d-0684" name="Rookie Squad" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1192-d91c-3cc7-71a4" name="5.56mm Rifle" hidden="false" targetId="e7ca-3603-9035-cdb0" type="profile"/>
+        <infoLink id="f0d0-0720-854c-92f5" name="Rookie Squad" hidden="false" targetId="5996-b2a9-6107-bcac" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e7d9-e330-fcc6-5a3b" name="Infantry" hidden="false" targetId="inf" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3df1-08ac-cda7-701e" name="Longshot Duo" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8a5d-4f70-5115-438a" name=".300 Sniper" hidden="false" targetId="a1a9-9262-6ab3-16b4" type="profile"/>
+        <infoLink id="d432-af46-e959-e5ff" name="Longshot Duo" hidden="false" targetId="bfe2-4334-2848-f68b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f563-ff11-c50d-0365" name="New CategoryLink" hidden="false" targetId="inf" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fea9-33b1-6b06-79c7" name="M8 Coyote" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="bdfa-b401-c2a3-99e4" name="7.62mm MG" hidden="false" targetId="2994d492-dd88-49d3-9eaa" type="profile"/>
+        <infoLink id="223f-59c1-b372-c37d" name="M8 Coyote" hidden="false" targetId="e040-6b9b-241e-fb50" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3a1f-b9d8-a5b2-9248" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
+        <categoryLink id="6b0a-c9b0-8e64-b610" name="New CategoryLink" hidden="false" targetId="b9a5-fc14-d873-704f" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca6f-8cea-a2a8-b933" name="M11 Jackal" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5d9b-78f3-59c3-afb0" name="M11 Jackal" hidden="false" targetId="36473847-a74e-4f09-b0e3" type="profile"/>
+        <infoLink id="b681-0ed8-5f9d-f582" name="20×102mm AC" hidden="false" targetId="1c6f4c1d-4953-420e-b724" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4c96-4344-4bc1-e6b1" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
+        <categoryLink id="876b-fbad-c143-75b5" name="APC" hidden="false" targetId="apc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c86-ab7f-3185-e119" name="M14 Puma" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="66e4-4a23-552d-2475" name="M14 Puma" hidden="false" targetId="813967c5-8d5a-487c-b55f" type="profile"/>
+        <infoLink id="7d71-ffe8-9041-f17d" name="105mm HEAT" hidden="false" targetId="cb79fd41-dab3-4eb6-a27a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8a52-1732-596b-d061" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
+        <categoryLink id="ed19-a157-735b-d3b6" name="Light Tank" hidden="false" targetId="b43b-a848-fcd3-f503" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a065-ded7-f5a0-4bd4" name="M16 Badger" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0f91-d26d-0f57-42e5" name="40mm AC (HE)" hidden="false" targetId="1693ba3d-7a07-4ec1-8d4f" type="profile"/>
+        <infoLink id="1ecd-152a-3203-6312" name="M16 Badger" hidden="false" targetId="9b3c30a6-6206-4d64-a2a2" type="profile"/>
+        <infoLink id="11ff-0ff3-3a30-f223" name="NERA Armor" hidden="false" targetId="6851-f823-5b74-bebb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="81be-e322-090a-f750" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
+        <categoryLink id="6a0b-e8a0-223b-b828" name="Light Tank" hidden="false" targetId="b43b-a848-fcd3-f503" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ab1-014e-a843-6f19" name="M24 Grizzly" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c259-b3dc-216b-6cbe" name="M24 Grizzly" hidden="false" targetId="8f145354-e613-455a-ba71" type="profile"/>
+        <infoLink id="8d9b-311c-d0e5-d932" name="50mm AC" hidden="false" targetId="9e514a8e-7305-4de0-962f" type="profile"/>
+        <infoLink id="31ae-c647-c07a-d18d" name="7.62mm MG" hidden="false" targetId="2994d492-dd88-49d3-9eaa" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4aff-ae6d-9db9-2bca" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
+        <categoryLink id="4a6f-f2f1-2851-93f4" name="IFV" hidden="false" targetId="201c-1576-d588-aad5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f755-63c6-d45c-c547" name="M29 Vindicator" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d25e-dca2-609d-fece" name="130mm APFSDS" hidden="false" targetId="45aba4d6-8bfc-4393-bab0" type="profile"/>
+        <infoLink id="24a5-2efd-17f3-44fe" name="M29 Vindicator" hidden="false" targetId="728d4e60-b414-40e5-9847" type="profile"/>
+        <infoLink id="3d6f-7fb5-944d-6c78" name="NERA Armor" hidden="false" targetId="6851-f823-5b74-bebb" type="profile"/>
+        <infoLink id="e96a-45c4-c30c-8b9e" name="Sloped Armor" hidden="false" targetId="58ec-2f03-cfde-51bd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1b4a-d5e9-3369-e4ff" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
+        <categoryLink id="16b1-044f-8231-e3b6" name="SPG" hidden="false" targetId="4972-4598-7035-2b18" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9478-65fe-686d-c298" name="M51 Bison" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="804d-6990-b5be-4327" name="105mm HEAT" hidden="false" targetId="cb79fd41-dab3-4eb6-a27a" type="profile"/>
+        <infoLink id="cd69-ac1f-4dec-f796" name="M51 Bison" hidden="false" targetId="6387b9d8-6fb9-4c80-a8ac" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b956-e247-b0df-2a85" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
+        <categoryLink id="3c14-8018-c181-38f5" name="MBT" hidden="false" targetId="dc81-ab91-495d-0042" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="0.0"/>
+        <cost name="MP" typeId="mp-cost" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="36473847-a74e-4f09-b0e3" name="M11 Jackal" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">3</characteristic>
+        <characteristic name="A" typeId="armor">L</characteristic>
+        <characteristic name="C" typeId="control">0</characteristic>
+        <characteristic name="H" typeId="health">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1c6f4c1d-4953-420e-b724" name="20×102mm AC" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">2</characteristic>
+        <characteristic name="N" typeId="weapon-none">11-</characteristic>
+        <characteristic name="L" typeId="weapon-light">7+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">13+</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">NA</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords"/>
+      </characteristics>
+    </profile>
+    <profile id="813967c5-8d5a-487c-b55f" name="M14 Puma" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">3</characteristic>
+        <characteristic name="A" typeId="armor">L</characteristic>
+        <characteristic name="C" typeId="control">0</characteristic>
+        <characteristic name="H" typeId="health">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9b3c30a6-6206-4d64-a2a2" name="M16 Badger" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">3</characteristic>
+        <characteristic name="A" typeId="armor">M</characteristic>
+        <characteristic name="C" typeId="control">0</characteristic>
+        <characteristic name="H" typeId="health">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1693ba3d-7a07-4ec1-8d4f" name="40mm AC (HE)" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">2</characteristic>
+        <characteristic name="N" typeId="weapon-none">6-</characteristic>
+        <characteristic name="L" typeId="weapon-light">5+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">13+</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">2</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords"/>
+      </characteristics>
+    </profile>
+    <profile id="8f145354-e613-455a-ba71" name="M24 Grizzly" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">2</characteristic>
+        <characteristic name="A" typeId="armor">M</characteristic>
+        <characteristic name="C" typeId="control">0</characteristic>
+        <characteristic name="H" typeId="health">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9e514a8e-7305-4de0-962f" name="50mm AC" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">2</characteristic>
+        <characteristic name="N" typeId="weapon-none">4-</characteristic>
+        <characteristic name="L" typeId="weapon-light">2+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">10+</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">1</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords">Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="728d4e60-b414-40e5-9847" name="M29 Vindicator" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">2</characteristic>
+        <characteristic name="A" typeId="armor">M</characteristic>
+        <characteristic name="C" typeId="control">0</characteristic>
+        <characteristic name="H" typeId="health">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="45aba4d6-8bfc-4393-bab0" name="130mm APFSDS" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">5</characteristic>
+        <characteristic name="N" typeId="weapon-none">NA</characteristic>
+        <characteristic name="L" typeId="weapon-light">NA</characteristic>
+        <characteristic name="M" typeId="weapon-medium">7-</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">3+</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">NA</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords">Long, Frontal</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6387b9d8-6fb9-4c80-a8ac" name="M51 Bison" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">2</characteristic>
+        <characteristic name="A" typeId="armor">H</characteristic>
+        <characteristic name="C" typeId="control">0</characteristic>
+        <characteristic name="H" typeId="health">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb79fd41-dab3-4eb6-a27a" name="105mm HEAT" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">2</characteristic>
+        <characteristic name="N" typeId="weapon-none">NA</characteristic>
+        <characteristic name="L" typeId="weapon-light">8-</characteristic>
+        <characteristic name="M" typeId="weapon-medium">4+</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">9+</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">NA</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords"/>
+      </characteristics>
+    </profile>
+    <profile id="295da6fa-ac3f-4d69-b907" name="M8 Coyote" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">4</characteristic>
+        <characteristic name="A" typeId="armor">L</characteristic>
+        <characteristic name="C" typeId="control">1</characteristic>
+        <characteristic name="H" typeId="health">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2994d492-dd88-49d3-9eaa" name="7.62mm MG" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">2</characteristic>
+        <characteristic name="N" typeId="weapon-none">2+</characteristic>
+        <characteristic name="L" typeId="weapon-light">11+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">NA</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">NA</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords"/>
+      </characteristics>
+    </profile>
+    <profile id="e7ca-3603-9035-cdb0" name="5.56mm Rifle" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">2</characteristic>
+        <characteristic name="N" typeId="weapon-none">3+</characteristic>
+        <characteristic name="L" typeId="weapon-light">13+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">NA</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">NA</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords">Assault</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a1a9-9262-6ab3-16b4" name=".300 Sniper" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">4</characteristic>
+        <characteristic name="N" typeId="weapon-none">1+</characteristic>
+        <characteristic name="L" typeId="weapon-light">9+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">NA</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">NA</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords">Long, Precision</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bfe2-4334-2848-f68b" name="Longshot Duo" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">2</characteristic>
+        <characteristic name="A" typeId="armor">N</characteristic>
+        <characteristic name="C" typeId="control">0</characteristic>
+        <characteristic name="H" typeId="health">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e040-6b9b-241e-fb50" name="M8 Coyote" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">4</characteristic>
+        <characteristic name="A" typeId="armor">L</characteristic>
+        <characteristic name="C" typeId="control">1</characteristic>
+        <characteristic name="H" typeId="health">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5996-b2a9-6107-bcac" name="Rookie Squad" hidden="false" typeId="unit-profile-id" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="movement">2</characteristic>
+        <characteristic name="A" typeId="armor">N</characteristic>
+        <characteristic name="C" typeId="control">2</characteristic>
+        <characteristic name="H" typeId="health">4</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
