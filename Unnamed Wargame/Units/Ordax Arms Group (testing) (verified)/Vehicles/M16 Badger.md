@@ -6,7 +6,7 @@ Light tank with heavier armor and middle mobility, shooting HE shells, used agai
 
 | Name         | R   | N   | L   | M   | H   | F   | Keywords |
 | ------------ | --- | --- | --- | --- | --- | --- | -------- |
-| 40mm AC (HE) | 2   | 6-  | 5+  | 13+ | NA  | 2   |          |
+| 40mm AC (HE) | 2   | 6-  | 5+  | 13+ | NA  | 1   | HE       |
 
 Abilities:
 - NERA Armor
@@ -16,7 +16,7 @@ Cost:
 
 | MP  | Mat |
 | --- | --- |
-| 20  | 60  |
+| 15  | 50  |
 
 
 Tags:

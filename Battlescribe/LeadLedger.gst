@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="my-tactical-game-gst" name="My Tactical Game" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="my-tactical-game-gst" name="Lead Ledger" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="mp-cost" name="MP" defaultCostLimit="-1.0" hidden="false"/>
     <costType id="mats-cost" name="Mats" defaultCostLimit="-1.0" hidden="false"/>
@@ -41,7 +41,7 @@
     <categoryEntry id="b9a5-fc14-d873-704f" name="Armored Car" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="army-list-gst" name="Army List (GST)" hidden="false"/>
+    <forceEntry id="army-list-gst" name="Army List (GST)" hidden="true"/>
   </forceEntries>
   <sharedRules>
     <rule id="5475-29e2-85c2-9a76" name="Assault" hidden="false">
@@ -52,12 +52,17 @@
   <sharedProfiles>
     <profile id="6851-f823-5b74-bebb" name="NERA Armor" hidden="false" typeId="b88b-b6ca-13c2-bb58" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="71a6-c11b-3c40-dde8">test description</characteristic>
+        <characteristic name="Description" typeId="71a6-c11b-3c40-dde8">-2AP to HEAT, Tandem, HESH and RPGs targetting this unit</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6851-f823-5b74-bebc" name="Brittle" hidden="false" typeId="b88b-b6ca-13c2-bb58" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="71a6-c11b-3c40-dde8">+1AP to all shots that target this unit.</characteristic>
       </characteristics>
     </profile>
     <profile id="58ec-2f03-cfde-51bd" name="Sloped Armor" hidden="false" typeId="b88b-b6ca-13c2-bb58" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="71a6-c11b-3c40-dde8">tes 2</characteristic>
+        <characteristic name="Description" typeId="71a6-c11b-3c40-dde8">-4AP to AC; -2AP to AP and RPGs targetting this unit</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
