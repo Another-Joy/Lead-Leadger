@@ -1,0 +1,12 @@
+uuid,name,R,N,L,M,H,F,keywords
+9mm-smg,9mm SMG,1,5+,NA,NA,NA,NA,assault
+5.56mm-rifle,5.56mm Rifle,2,3+,13+,NA,NA,NA,assault
+.300-sniper,.300 Sniper,4,1+,9+,NA,NA,NA,"long,precision"
+7.62mm-mg,7.62mm MG,2,1+,11+,NA,NA,NA,
+7.62mm-linked-mg-Linked,7.62mm Linked MG,2,1+,11+,NA,NA,NA,linked
+20mm-ac,20mm AC,2,11-,7+,13+,NA,NA,
+40mm-ac-he-HE,40mm AC HE,2,6-,4+,12+,NA,1,he
+50mm-linked-ac,50mm Linked AC,2,4-,2+,10+,NA,1,linked
+105mm-heat,105mm HEAT,2,NA,8-,4+,9+,NA,
+105mm-attack-heat,105mm Attack HEAT,2,NA,8-,4+,9+,NA,assault
+130mm-hunter-apfsds,130mm Hunter APFSDS,5,NA,NA,7-,3+,NA,"long,frontal"

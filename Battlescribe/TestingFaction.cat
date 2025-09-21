@@ -101,7 +101,7 @@
         <categoryLink id="6a0b-e8a0-223b-b828" name="Light Tank" hidden="false" targetId="b43b-a848-fcd3-f503" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Mats" typeId="mats-cost" value="50.0"/>
+        <cost name="Mats" typeId="mats-cost" value="55.0"/>
         <cost name="MP" typeId="mp-cost" value="15.0"/>
       </costs>
     </selectionEntry>
@@ -204,8 +204,8 @@
       <characteristics>
         <characteristic name="R" typeId="weapon-range">2</characteristic>
         <characteristic name="N" typeId="weapon-none">6-</characteristic>
-        <characteristic name="L" typeId="weapon-light">5+</characteristic>
-        <characteristic name="M" typeId="weapon-medium">13+</characteristic>
+        <characteristic name="L" typeId="weapon-light">4+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">12+</characteristic>
         <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
         <characteristic name="F" typeId="weapon-fortification">1</characteristic>
         <characteristic name="Keywords" typeId="weapon-keywords">HE</characteristic>

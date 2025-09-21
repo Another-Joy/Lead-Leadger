@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=8.2in, paperheight=3.7in, margin=0.1in]{geometry}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\titleformat{\section}{\Large\bfseries\color{RoyalBlue}}{}{0em}{}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % Left-aligned fixed width
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}   % Centered fixed width
+
+% === Custom Command to Print a Unit Card ===
+\newcommand{\unitcard}[9]{%
+\noindent
+\begin{minipage}{0.25\textwidth}
+\tcbset{
+  colback=gray!10,
+  colframe=black!50,
+  arc=0mm,
+  boxrule=0pt,
+  enhanced,
+  sharp corners,
+  width=1.05\linewidth,
+  height=\textheight,
+  valign=top,
+  left=5pt, right=5pt, top=5pt, bottom=5pt,
+  overlay={
+    \node[anchor=south east, xshift=-0pt, yshift=0pt] 
+      at (frame.south east) {
+        \def\triangleside{3}
+        \if N#4\def\triangleside{1}\fi
+        \if L#4\def\triangleside{2}\fi
+        \if M#4\def\triangleside{3}\fi
+        \if H#4\def\triangleside{4}\fi
+        \includegraphics[width=1.5cm]{Triangles/\triangleside\space Side.png}
+      };
+  }
+}
+\begin{tcolorbox}
+\section{#1} % Unit name
+\subsection*{#2} % Unit subtitle
+\vspace{0.5em}
+
+% Stats Table
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{M} & \textbf{A} & \textbf{C} & \textbf{H} \\
+\hline
+#3 & #4 & #5 & #6 \\
+\hline
+\end{tabular}
+\vspace{1em}
+
+% MP/MAT Table
+\begin{tabular}{|c|c|}
+\hline
+\textbf{MP} & \textbf{Mat} \\
+\hline
+#7 & #8 \\
+\hline
+\end{tabular}
+
+\vspace{1em}
+\textbf{Tags:} \textit{#9}
+\end{tcolorbox}
+\end{minipage}%
+\hfill
+}
+
+% === Custom Command to Print Weapon Table ===
+\newcommand{\weapontable}[2]{%
+\begin{minipage}{0.72\textwidth}
+\textbf{Weaponry:}
+
+\begin{tabular}{|L{3cm}|C{0.6cm}|C{0.6cm}|C{0.6cm}|C{0.6cm}|C{0.6cm}|C{0.6cm}|L{4.5cm}|}
+\hline
+\textbf{Name} & \textbf{R} & \textbf{N} & \textbf{L} & \textbf{M} & \textbf{H} & \textbf{F} & \textbf{Keywords} \\
+\hline
+#1 % <- rows get injected here
+\hline
+\end{tabular}
+
+\vspace{1em}
+\textbf{Abilities:}
+\begin{minipage}{\textwidth}
+#2 % <- abilities text gets injected here
+\end{minipage}
+\end{minipage}
+}
+
+\begin{document}
+
+\input{units.tex} % <-- loads all unit definitions
+
+\end{document}
+
