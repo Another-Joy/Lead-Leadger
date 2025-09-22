@@ -47,7 +47,9 @@
     <rule id="5475-29e2-85c2-9a76" name="Assault" hidden="false">
       <description>Can make offensive actions after moving.</description>
     </rule>
-    <rule id="8956-be22-469d-2391" name="Transport" hidden="false"/>
+    <rule id="8956-be22-469d-2391" name="Transport" hidden="false">
+      <description>Can transport Infantry.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="6851-f823-5b74-bebb" name="NERA Armor" hidden="false" typeId="b88b-b6ca-13c2-bb58" typeName="Abilities">
