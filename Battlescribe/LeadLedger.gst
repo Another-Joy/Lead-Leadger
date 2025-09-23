@@ -45,10 +45,32 @@
   </forceEntries>
   <sharedRules>
     <rule id="5475-29e2-85c2-9a76" name="Assault" hidden="false">
-      <description>Can make offensive actions after moving.</description>
+      <description>After a unit with an Assault weapon moved, it is still allowed to make an offensive action.
+If the action is shooting, that unit can only shoot Assault weapons.</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9b45" name="Linked" hidden="false">
+      <description>Linked weapons can only shoot at targets in the same tile or adjacent tiles to the target of other Linked weapons
+
+Resolve Linked weapons in any order.
+- The first Linked weapon has no restriction.
+- Each following Linked weapon's target must be within 1 range of all previous targets of Linked weapons.
     </rule>
     <rule id="8956-be22-469d-2391" name="Transport" hidden="false">
       <description>Can transport Infantry.</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9a89" name="Long" hidden="false">
+      <description>Long weapons have higher Range than normal (+2, included in the weapon profile).</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9b76" name="Frontal" hidden="false">
+      <description>Frontal weapons can only target enemies/tiles in the unit's front arc.
+      
+The front arc is the tile directly ahead and any tiles at least partially within the 60° cone extending from that edge.</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9b79" name="Precision" hidden="false">
+      <description>Precision weapons can target units within Fortifications and ignore Evasion rolls</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9b79" name="HE" hidden="false">
+      <description>HE weapons have better N penetration, worse armor penetration and more F damage than normal (+1, -1 and +1 respectively, included in the weapon profile)</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
