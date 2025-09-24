@@ -27,12 +27,6 @@ Then, the Main Phase starts, with the first player beginning.
 
 # Main Phase
 
-## Tiles
-The map is made up of a grid of hexagonal tiles. These tiles can be empty, have buildings, ally or enemy units in any combination.
-- Any tile with a building in considered a Fortification Tile and can be targetted for Shooting
-- Tiles with enemy units or enemy deployed buildings are considered Enemy Tiles
-- Fortification Tiles with units inside are considered Occupied Buildings.
-
 ## Unit Activation
 Each player activates one unit, then passes the turn to the other player.
 The same unit can be activated any number of times in a row.
@@ -55,6 +49,15 @@ When activating a Unit, it can either make a move action or an attack action, un
 	- In case of success, remove 1 H from it.
 - Capture a Building, by turning its Pips to your color. When turning pips, if you turn a neutral one, instead turn two.
 
+
+
+# Map
+
+## Tiles
+The map is made up of a grid of hexagonal tiles. These tiles can be empty, have buildings, ally or enemy units in any combination.
+- Any tile with a building in considered a Fortification Tile and can be targetted for Shooting
+- Tiles with enemy units or enemy deployed buildings are considered Enemy Tiles
+- Fortification Tiles with units inside are considered Occupied Buildings.
 
 # Fortifications
 

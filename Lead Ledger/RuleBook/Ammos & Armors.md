@@ -33,31 +33,9 @@
 - ○ **Weak / None** = No effective protection
 
 Ignore if rolling down:
-Sloped, Composite, NERA, Spaced, Slat: -1/2 AP
-ERA: -2/4 AP, 2 uses per battle
-APS: 6+/4+ dodge
-
-| **Ammo Type**   | **Caliber**         | **No Armor** | **Light** | **Medium** | **Heavy** | Fort | Pen Score |
-| --------------- | ------------------- | ------------ | --------- | ---------- | --------- | ---- | --------- |
-| **AP**          | 7.62×51mm NATO      | 6-           | 6+        | NA         | NA        | 1    | 7         |
-|                 | 12.7×99mm (.50 BMG) | 6-           | 5+        | NA         | NA        | 1    | 8         |
-|                 | 20×102mm            | 5-           | 4+        | NA         | NA        | 1    | 8         |
-|                 | 30×165mm            | 4-           | 3+        | 7+         | NA        | 1    | 8         |
-| **APFSDS**      | 90mm                | NA           | 3-        | 2+         | 5+        | 0    | 10        |
-|                 | 105mm               | NA           | 2-        | 2+         | 4+        | 0    | 10        |
-|                 | 120mm               | NA           | 2-        | 6-         | 4+        | 0    | 11        |
-|                 | 125mm               | NA           | 1-        | 6-         | 3+        | 0    | 11        |
-|                 | 130mm               | NA           | NA        | 5-         | 2+        | 0    | 10        |
-| **HEAT**        | 105mm               | NA           | 5-        | 2+         | 5+        | 0    | 12        |
-|                 | 120mm               | NA           | 4-        | 2+         | 4+        | 0    | 12        |
-|                 | 125mm               | NA           | 3-        | 6-         | 4+        | 0    | 12        |
-| **Tandem HEAT** | 120mm               | NA           | 3-        | 2+         | 4+        | 0    | 11        |
-|                 | 125mm               | NA           | 2-        | 6-         | 4+        | 0    | 11        |
-| **HESH**        | 105mm               | 4+           | 2+        | 4+         | 7+        | 2    | 11        |
-|                 | 120mm               | 3+           | 2+        | 3+         | 6+        | 2    | 14        |
-| **Autocannon**  | 30×165mm            | 5-           | 3+        | 7+         | NA        | 1    | 9         |
-|                 | 30×173mm            | 5-           | 3+        | 6+         | NA        | 1    | 10        |
-|                 | 40mm CTA            | 4-           | 2+        | 5+         | NA        | 1    | 11        |
+Sloped, Composite, NERA, Spaced, Slat: -2/4 AP
+ERA: -3/6 AP, 2 uses per battle
+APS: 2/4 dodge
 
 | Type | Purpose            | Tier                                | Armament                     |
 | ---- | ------------------ | ----------------------------------- | ---------------------------- |
