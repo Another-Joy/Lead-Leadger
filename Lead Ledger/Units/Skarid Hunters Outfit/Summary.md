@@ -5,13 +5,12 @@ Shorter range and faster movement, this Regiment's motto is "in their face". Jus
 ++Firepower (at CQB)
 -Range
 
-[[Centrurion Squad]] - Infantry with short range smgs with rapid fire for buildings
+[[Centurion Squad]] - Infantry with short range smgs with rapid fire for buildings
 [[Transport]] - Transport with Assault LMG
 [[L Hunter]] - Tank hunter vs L armor. 
 Light tank wiht HE blast vs F
 MEdium tank vs Light with rear LMG
 Tank hunter vs M armor with Capped
-Heavy tank with sloped armor. Weak Gun
 Normal Artillery.
 
 

@@ -45,15 +45,14 @@
   </forceEntries>
   <sharedRules>
     <rule id="5475-29e2-85c2-9a76" name="Assault" hidden="false">
-      <description>After a unit with an Assault weapon moved, it is still allowed to make an offensive action.
-If the action is shooting, that unit can only shoot Assault weapons.</description>
+      <description>When you Advance a unit with an Assault weapon, you may then Minor it to shoot, and only weapons with Assault can shoot.</description>
     </rule>
     <rule id="5475-29e2-85c2-9b45" name="Linked" hidden="false">
       <description>Linked weapons can only shoot at targets in the same tile or adjacent tiles to the target of other Linked weapons
 
 Resolve Linked weapons in any order.
 - The first Linked weapon has no restriction.
-- Each following Linked weapon's target must be within 1 range of all previous targets of Linked weapons.
+- Each following Linked weapon's target must be within 1 range of all previous targets of Linked weapons.</description>
     </rule>
     <rule id="8956-be22-469d-2391" name="Transport" hidden="false">
       <description>Can transport Infantry.</description>
