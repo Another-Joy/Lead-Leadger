@@ -27,27 +27,29 @@ Then, the Main Phase starts, with the first player beginning.
 
 # Main Phase
 
-## Unit Activation
+## Actions
 Each player activates one unit, then passes the turn to the other player.
 The same unit can be activated any number of times in a row.
 
 When activating a Unit, it can either make a move action or an attack action, unless stated otherwise.
 
-## Move Actions
-- Move the unit up to their Movement Stat. Restrictions are based on unit type and are explained in the "Extra Rules / Movement Restrictions" section.
-	- Moving into buildings and into enemy tiles does not have an extra cost.
-	- Moving out of Enemy Occupied Buildings and enemy tiles costs double movement.
-- Disembark from a transport, by moving up to 1 tile.
-- Embark into a transport, by moving up to 1 tile.
+Each turn the active player gets a Major and a Minor Action to spend on units. These can be spent in any unit, within the following restrictions:
+- The Major Action must be spent first, or not spent at all.
+- A unit cannot shoot twice with the same weapon.
+
+## Moving
+Move the unit up to the specified value. If none was specified, move it up to its M. Restrictions are based on unit type and are explained in the "Extra Rules / Movement Restrictions" section.
+- Moving into buildings and into enemy tiles does not have an extra cost.
+- Moving out of Enemy Occupied Buildings and enemy tiles costs double movement.
 
 
-## Attack Actions
-- Shoot a unit. Repeatable for each weapon the unit has that can shoot, and can target different units with different weapons. Attacking fortifications works differently, and is explained in the "Fortifications / Fortification Damage" section. 
-	- The target unit must be within range of the weapon (denoted by R) and within LoS.
-	- Check the targets Armor and the weapon's Penetration Roll.
-	- Roll for penetration, then add any effect onto the rolled value
-	- In case of success, remove 1 H from it.
-- Capture a Building, by turning its Pips to your color. When turning pips, if you turn a neutral one, instead turn two.
+## Shooting
+Shoot a unit. Repeatable for each weapon the unit has that can shoot, and can target different units with different weapons. Attacking fortifications works differently, and is explained in the "Fortifications / Fortification Damage" section. 
+- The target unit must be within range of the weapon (denoted by R) and within LoS.
+- Check the targets Armor and the weapon's Penetration Roll.
+- Roll for penetration, then add any effect onto the rolled value
+- In case of success, remove 1 H from it.
+
 
 
 
@@ -84,7 +86,7 @@ N, L and M Vehicles can turn and move in any order, but H must move forward and 
 Instead of moving, a vehicle can remain stationary and only turn. This still costs 1 tile of movement
 Vehicles can also move backwards, following the same rules, but each tile moved costs double.
 
-A Vehicle can only move into a tile if the slots it would occupy (given its future direction) are free. In this case, for non-H vehicles, consider the slots it would occupy after turning after the movement (and if it didn't already used this move's turn)
+A Vehicle can only move into a tile if the slots it would occupy (given its future direction) are free. In this case, for non-H vehicles, consider the slots it would occupy after turning after the movement (and if it didn't already used this move's turning)
 
 ### Aircraft
 Aircraft must always move when activated, and follows the same rules as Vehicles, with the exception that it cannot move backwards and cannot only turn.
