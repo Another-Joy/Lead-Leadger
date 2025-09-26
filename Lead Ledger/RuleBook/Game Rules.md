@@ -90,14 +90,14 @@ Spending a Major action on a unit is called Majoring a unit , and spending a Min
 For example, "Major a unit to Advance" means spending a Major action on a unit to do the Advance action, moving up to it's M stat.
 ## Major
 
-### Move
+### Move Majors
 - Advance: Move up to the unit's M stat.
 - Embark: Embark into a Transport, by moving up to 1
 - Disembark: Disembark from a Transport and moving up to 1.
 
-### Attack
-- Full Shot: Shoot a unit. Repeatable for each weapon the unit has that can shoot.
-- Full Capture: Capture a Building, by turning its Pips to your color. When turning pips this way, if you turn a neutral one, instead turn two.
+### Attack Majors
+- Salvo: Shoot a unit. Repeatable for each weapon the unit has that can shoot.
+- Capture: Capture a Building, by turning its Pips to your color. When turning pips this way, if you turn a neutral one, instead turn two.
 
 
 ## Minor
@@ -111,7 +111,7 @@ Move up to 2 units into this units tile. Those units can only move 1.
 Capture a Building, by turning its Pips to your color. Cannot be used on a unit that already Captured a building this turn.
 
 ### Shot
-Shoot a single weapon. This shot is at most a 3- or 10+, depending if it would be rolling up or down.
+Shoot a single weapon. This shot is at most a 4- or 9+, depending if it would be rolling up or down.
 Cannot be used by units that already shot this turn.
 
 
