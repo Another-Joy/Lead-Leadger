@@ -3,6 +3,7 @@ import sqlite3
 import tkinter as tk
 from tkinter import messagebox, ttk
 import datetime
+from playtest_db import ensure_tag
 
 DB_FILE = "playtest_history.sqlite3"
 
@@ -215,8 +216,10 @@ def add_action(event=None):
             tags=tags
         )
         
-        # Only clear notes field, keep the rest
+        # Only clear notes field, keep the rest. NOT ANYMORE
         entry_notes.delete(0, tk.END)
+        primary_participant.delete(0, tk.END)
+        secondary_participants.delete(0, tk.END)
         
         # Refresh the actions list if this action belongs to the currently selected session
         selected = sessions_tree.selection()
@@ -234,6 +237,9 @@ def add_action(event=None):
 # GUI setup
 root = tk.Tk()
 root.title("Playtest History")
+
+# Configure default button for message boxes
+root.option_add('*Dialog.msg.button.default', 'active')
 
 # Initialize database if needed
 init_if_needed()
@@ -295,6 +301,76 @@ def delete_session():
 delete_session_btn = tk.Button(sessions_frame, text="Delete Session", command=delete_session)
 delete_session_btn.pack(pady=5)
 
+# Edit Action Dialog
+class EditActionDialog:
+    def __init__(self, parent, action_data):
+        self.dialog = tk.Toplevel(parent)
+        self.dialog.title("Edit Action")
+        self.dialog.transient(parent)
+        self.dialog.grab_set()
+        
+        self.result = None
+        self.action_data = action_data
+        
+        # Create widgets
+        tk.Label(self.dialog, text="Type").grid(row=0, column=0)
+        self.type_var = tk.StringVar(value=action_data['type'])
+        self.type_combo = ttk.Combobox(self.dialog, textvariable=self.type_var, values=ACTION_TYPES, state="readonly")
+        self.type_combo.grid(row=0, column=1)
+        
+        tk.Label(self.dialog, text="Primary Participant").grid(row=1, column=0)
+        self.primary = tk.Entry(self.dialog)
+        self.primary.insert(0, action_data['primary_participant'] or '')
+        self.primary.grid(row=1, column=1)
+        
+        tk.Label(self.dialog, text="Secondary Participants").grid(row=2, column=0)
+        self.secondary = tk.Entry(self.dialog)
+        if action_data['secondary_participants']:
+            self.secondary.insert(0, ', '.join(action_data['secondary_participants']))
+        self.secondary.grid(row=2, column=1)
+        
+        tk.Label(self.dialog, text="Tags").grid(row=3, column=0)
+        self.tags = tk.Entry(self.dialog)
+        if action_data['tags']:
+            self.tags.insert(0, ', '.join(action_data['tags']))
+        self.tags.grid(row=3, column=1)
+        
+        tk.Label(self.dialog, text="Notes").grid(row=4, column=0)
+        self.notes = tk.Entry(self.dialog)
+        self.notes.insert(0, action_data['notes'] or '')
+        self.notes.grid(row=4, column=1)
+        
+        btn_frame = tk.Frame(self.dialog)
+        btn_frame.grid(row=5, column=0, columnspan=2, pady=10)
+        
+        tk.Button(btn_frame, text="Save", command=self.save).pack(side=tk.LEFT, padx=5)
+        tk.Button(btn_frame, text="Cancel", command=self.cancel).pack(side=tk.LEFT, padx=5)
+        
+        # Bind Enter key to save
+        self.dialog.bind("<Return>", lambda e: self.save())
+        self.dialog.bind("<Escape>", lambda e: self.cancel())
+        
+        # Center the dialog
+        self.dialog.update_idletasks()
+        width = self.dialog.winfo_width()
+        height = self.dialog.winfo_height()
+        x = parent.winfo_rootx() + (parent.winfo_width() // 2) - (width // 2)
+        y = parent.winfo_rooty() + (parent.winfo_height() // 2) - (height // 2)
+        self.dialog.geometry(f"+{x}+{y}")
+    
+    def save(self):
+        self.result = {
+            'type': self.type_var.get(),
+            'primary_participant': self.primary.get().strip() or None,
+            'secondary_participants': [p.strip() for p in self.secondary.get().split(',')] if self.secondary.get().strip() else None,
+            'tags': [t.strip() for t in self.tags.get().split(',')] if self.tags.get().strip() else None,
+            'notes': self.notes.get().strip() or None
+        }
+        self.dialog.destroy()
+    
+    def cancel(self):
+        self.dialog.destroy()
+
 # Actions list
 actions_frame = tk.LabelFrame(lists_frame, text="Actions")
 actions_frame.pack(side="right", fill="both", expand=True, padx=5)
@@ -320,7 +396,82 @@ actions_tree.column("Notes", width=150, minwidth=100)
 
 actions_tree.pack(fill="both", expand=True)
 
-# Add Delete Action button
+# Add double-click handler for action editing
+def on_action_double_click(event):
+    selected = actions_tree.selection()
+    if not selected:
+        return
+        
+    action = actions_tree.item(selected[0])['values']
+    action_data = {
+        'id': action[0],
+        'player': action[1],
+        'type': action[2],
+        'notes': action[3],
+        'primary_participant': None,
+        'secondary_participants': [],
+        'tags': []
+    }
+    
+    # Parse participants from the participants string
+    if action[4]:  # participants column
+        parts = action[4].split(' → ')
+        if parts[0]:  # primary participant
+            action_data['primary_participant'] = parts[0]
+        if len(parts) > 1:  # secondary participants
+            action_data['secondary_participants'] = [p.strip() for p in parts[1].split(',')]
+    
+    # Parse tags
+    if action[5]:  # tags column
+        action_data['tags'] = [t.strip() for t in action[5].split(',')]
+    
+    dialog = EditActionDialog(root, action_data)
+    root.wait_window(dialog.dialog)
+    
+    if dialog.result:
+        conn = connect()
+        cur = conn.cursor()
+        
+        # Update the action
+        cur.execute("""
+            UPDATE Actions 
+            SET type = ?, notes = ?
+            WHERE id = ?
+        """, (dialog.result['type'], dialog.result['notes'], action_data['id']))
+        
+        # Delete old participants
+        cur.execute("DELETE FROM ActionParticipants WHERE action_id = ?", (action_data['id'],))
+        
+        # Add new primary participant
+        if dialog.result['primary_participant']:
+            cur.execute(
+                "INSERT INTO ActionParticipants (action_id, is_primary, name_text) VALUES (?, ?, ?)",
+                (action_data['id'], True, dialog.result['primary_participant'])
+            )
+        
+        # Add new secondary participants
+        if dialog.result['secondary_participants']:
+            cur.executemany(
+                "INSERT INTO ActionParticipants (action_id, is_primary, name_text) VALUES (?, ?, ?)",
+                [(action_data['id'], False, name) for name in dialog.result['secondary_participants']]
+            )
+            
+        # Delete old tags
+        cur.execute("DELETE FROM ActionTags WHERE action_id = ?", (action_data['id'],))
+        
+        # Add new tags
+        if dialog.result['tags']:
+            for tag in dialog.result['tags']:
+                tag_id = ensure_tag(conn, tag)
+                cur.execute("INSERT INTO ActionTags (action_id, tag_id) VALUES (?, ?)", 
+                          (action_data['id'], tag_id))
+        
+        conn.commit()
+        conn.close()
+        
+        # Refresh the actions list
+        on_session_select(None)
+
 def delete_action():
     selected = actions_tree.selection()
     if not selected:
@@ -334,6 +485,12 @@ def delete_action():
     conn = connect()
     cur = conn.cursor()
     cur.execute("DELETE FROM Actions WHERE id = ?", (action_id,))
+    
+    # Reset the sequence to the maximum ID
+    cur.execute("SELECT MAX(id) FROM Actions")
+    max_id = cur.fetchone()[0] or 0
+    cur.execute("UPDATE SQLITE_SEQUENCE SET seq = ? WHERE name = 'Actions'", (max_id,))
+    
     conn.commit()
     conn.close()
     
@@ -344,6 +501,9 @@ def delete_action():
 
 delete_action_btn = tk.Button(actions_frame, text="Delete Action", command=delete_action)
 delete_action_btn.pack(pady=5)
+
+# Bind double-click for editing
+actions_tree.bind("<Double-1>", on_action_double_click)
 
 # Add Session frame
 frame1 = tk.LabelFrame(root, text="Add Session")
