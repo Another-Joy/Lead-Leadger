@@ -33,12 +33,14 @@
   <categoryEntries>
     <categoryEntry id="inf" name="Infantry" hidden="false"/>
     <categoryEntry id="veh" name="Vehicle" hidden="false"/>
+    <categoryEntry id="sup" name="Support" hidden="false"/>
     <categoryEntry id="apc" name="APC" hidden="false"/>
     <categoryEntry id="b43b-a848-fcd3-f503" name="Light Tank" hidden="false"/>
     <categoryEntry id="201c-1576-d588-aad5" name="IFV" hidden="false"/>
     <categoryEntry id="dc81-ab91-495d-0042" name="MBT" hidden="false"/>
     <categoryEntry id="4972-4598-7035-2b18" name="SPG" hidden="false"/>
     <categoryEntry id="b9a5-fc14-d873-704f" name="Armored Car" hidden="false"/>
+    <categoryEntry id="b9a5-fc14-d873-7045" name="Artillery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="army-list-gst" name="Army List (GST)" hidden="true"/>
@@ -48,7 +50,7 @@
       <description>When you Advance a unit with an Assault weapon, you may then Minor it to shoot, and only weapons with Assault can shoot.</description>
     </rule>
     <rule id="5475-29e2-85c2-9b45" name="Linked" hidden="false">
-      <description>Linked weapons can only shoot at targets in the same tile or adjacent tiles to the target of other Linked weapons
+      <description>Linked weapons can only shoot at targets in the same tile or adjacent tiles to the target of other Linked weapons.
 
 Resolve Linked weapons in any order.
 - The first Linked weapon has no restriction.
@@ -66,10 +68,16 @@ Resolve Linked weapons in any order.
 The front arc is the tile directly ahead and any tiles at least partially within the 60° cone extending from that edge.</description>
     </rule>
     <rule id="5475-29e2-85c2-9b79" name="Precision" hidden="false">
-      <description>Precision weapons can target units within Fortifications and ignore Evasion rolls</description>
+      <description>Precision weapons can target units within Fortifications and ignore Evasion rolls.</description>
     </rule>
-    <rule id="5475-29e2-85c2-9b79" name="HE" hidden="false">
+    <rule id="5475-29e2-85c2-9b71" name="HE" hidden="false">
       <description>HE weapons have better N penetration, worse armor penetration and more F damage than normal (+1, -1 and +1 respectively, included in the weapon profile)</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9b72" name="Blast" hidden="false">
+      <description>Blast weapons target tiles, and deal damage to every unit within that tile.</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9b73" name="Indirect Fire" hidden="false">
+      <description>Indirect Fire weapons do not need LoS to shoot at targets.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -86,6 +94,11 @@ The front arc is the tile directly ahead and any tiles at least partially within
     <profile id="58ec-2f03-cfde-51bd" name="Sloped Armor" hidden="false" typeId="b88b-b6ca-13c2-bb58" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="71a6-c11b-3c40-dde8">-4AP to AC; -2AP to AP and RPGs targetting this unit</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="58ec-2f03-cfde-51ba" name="Slat Armor" hidden="false" typeId="b88b-b6ca-13c2-bb58" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="71a6-c11b-3c40-dde8">-4AP to RPG; -2AP to HESH and HEAT targetting this unit</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -19,15 +19,15 @@
 | **Slat/Cage Armor**                     | Metal grid to prematurely detonate shaped charges |
 | **Active Protection System (APS)**      | Radar + interceptors to destroy incoming rounds   |
 
-| **Armor Type ↓ / Ammo Type →** | AP  | Auto- cannon | HESH | HEAT | Tandem HEAT | APFSDS | RPG | Top-Attack ATGM |
-| ------------------------------ | --- | ------------ | ---- | ---- | ----------- | ------ | --- | --------------- |
-| **Sloped**                     | ◐   | ⬤            | ○    | ○    | ○           | ○      | ◐   | ○               |
-| **Composite**                  | ◐   | ⬤            | ◐    | ◐    | ◐           | ◐      | ⬤   | ○               |
-| **ERA**                        | ◐   | ◐            | ◐    | ◐    | ○           | ◐      | ⬤   | ◐               |
-| **NERA**                       | ○   | ○            | ◐    | ◐    | ◐           | ○      | ◐   | ○               |
-| **Spaced**                     | ◐   | ◐            | ◐    | ◐    | ◐           | ○      | ⬤   | ○               |
-| **Slat**                       | ○   | ○            | ◐    | ◐    | ○           | ○      | ⬤   | ○               |
-| **APS (Hardkill)**             | ◐   | ○            | ◐    | ⬤    | ◐           | ○      | ⬤   | ⬤               |
+| **Armor Type ↓ / Ammo Type →** | AP  | Auto- cannon | HESH | HEAT | Tandem HEAT | APFSDS | RPG | Top-Attack ATGM |     |
+| ------------------------------ | --- | ------------ | ---- | ---- | ----------- | ------ | --- | --------------- | --- |
+| **Sloped**                     | ◐   | ⬤            | ○    | ○    | ○           | ○      | ◐   | ○               | 4   |
+| **Composite**                  | ◐   | ⬤            | ◐    | ◐    | ◐           | ◐      | ⬤   | ○               | 9   |
+| **ERA**                        | ◐   | ◐            | ◐    | ◐    | ○           | ◐      | ⬤   | ◐               | 8   |
+| **NERA**                       | ○   | ○            | ◐    | ◐    | ◐           | ○      | ◐   | ○               | 4   |
+| **Spaced**                     | ◐   | ◐            | ◐    | ◐    | ◐           | ○      | ⬤   | ○               | 7   |
+| **Slat**                       | ○   | ○            | ◐    | ◐    | ○           | ○      | ⬤   | ○               | 4   |
+| **APS (Hardkill)**             | ◐   | ○            | ◐    | ⬤    | ◐           | ○      | ⬤   | ⬤               |     |
 - **⬤ Strong** = Effective counter (hard to penetrate)
 - **◐ Moderate** = Partial effectiveness (some damage likely)
 - ○ **Weak / None** = No effective protection

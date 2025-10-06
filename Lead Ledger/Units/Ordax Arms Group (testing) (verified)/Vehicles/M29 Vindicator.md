@@ -10,6 +10,9 @@ SPG Tank Hunter, Used mainly against medium and heavy tanks
 
 Abilities:
 - Sloped, NERA Armor
+- Sturdy
+
+
 
 
 Cost:

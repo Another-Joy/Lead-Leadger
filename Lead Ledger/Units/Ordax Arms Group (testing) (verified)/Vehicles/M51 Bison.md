@@ -9,14 +9,14 @@ MBT used against medium tanks
 | 105mm HEAT | 2   | NA  | 8-  | 4+  | 9+  | NA  |          |
 
 Abilities:
-
+Slat Armor
 
 
 Cost:
 
 | MP  | Mat |
 | --- | --- |
-| 15  | 55  |
+| 15  | 70  |
 
 
 Tags:

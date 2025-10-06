@@ -16,8 +16,8 @@ Cost:
 
 | MP  | Mat |
 | --- | --- |
-| 20  | 65  |
+| 15  | 55  |
 
 
 Tags:
-Artillery
+Support, Artillery

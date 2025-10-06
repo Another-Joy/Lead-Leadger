@@ -5,6 +5,7 @@
       <categoryLinks>
         <categoryLink id="6ba0-8ed2-42c9-c37a" name="Infantry" hidden="false" targetId="inf" primary="false"/>
         <categoryLink id="c350-de5d-326c-b935" name="Vehicle" hidden="false" targetId="veh" primary="false"/>
+        <categoryLink id="c350-de5d-326c-b932" name="Support" hidden="false" targetId="sup" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -19,6 +20,7 @@
     <entryLink id="6290-ddd2-ca57-b05b" name="M51 Bison" hidden="false" collective="false" import="true" targetId="9478-65fe-686d-c298" type="selectionEntry"/>
     <entryLink id="eafb-3357-8271-9ec8" name="M8 Coyote" hidden="false" collective="false" import="true" targetId="fea9-33b1-6b06-79c7" type="selectionEntry"/>
     <entryLink id="5df9-a896-b0f0-3241" name="Wildcats" hidden="false" collective="false" import="true" targetId="5c83-c462-7b87-06f1" type="selectionEntry"/>
+    <entryLink id="45aa-91e8-bb29-1b9e" name="M60 Thunderbolt" hidden="false" collective="false" import="true" targetId="9478-65fe-686d-c295" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a771-1d6f-7d4d-0684" name="Rookie Squad" hidden="false" collective="false" import="true" type="unit">
@@ -43,7 +45,7 @@
         <cost name="MP" typeId="mp-cost" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3df1-08ac-cda7-701e" name="Longshot Duo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3df1-08ac-cda7-701e" name="Longshot Duo" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="33e8-c655-490b-4efa" name="Longshot Duo" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
@@ -61,7 +63,29 @@
         <categoryLink id="f563-ff11-c50d-0365" name="New CategoryLink" hidden="false" targetId="inf" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Mats" typeId="mats-cost" value="40.0"/>
+        <cost name="Mats" typeId="mats-cost" value="20.0"/>
+        <cost name="MP" typeId="mp-cost" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c83-c462-7b87-06f1" name="Wildcats" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6100-8854-e217-ee21" name="Wildcats" hidden="false" typeId="unit-profile-id" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="movement">2</characteristic>
+            <characteristic name="A" typeId="armor">N</characteristic>
+            <characteristic name="C" typeId="control">1</characteristic>
+            <characteristic name="H" typeId="health">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2ffe-f9b9-6295-2121" name="9mm SMG" hidden="false" targetId="e8ac-6290-a0d7-9902" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5063-1969-cd1c-72dd" name="New CategoryLink" hidden="false" targetId="inf" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Mats" typeId="mats-cost" value="5.0"/>
         <cost name="MP" typeId="mp-cost" value="20.0"/>
       </costs>
     </selectionEntry>
@@ -89,7 +113,7 @@
         <cost name="MP" typeId="mp-cost" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca6f-8cea-a2a8-b933" name="M11 Jackal" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ca6f-8cea-a2a8-b933" name="M11 Jackal" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="9d8a-fab0-cbbd-b332" name="M11 Jackal" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
@@ -112,7 +136,7 @@
         <cost name="MP" typeId="mp-cost" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c86-ab7f-3185-e119" name="M14 Puma" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9c86-ab7f-3185-e119" name="M14 Puma" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="2ba9-7d6f-b6fe-7f6d" name="M14 Puma" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
@@ -131,11 +155,11 @@
         <categoryLink id="ed19-a157-735b-d3b6" name="Light Tank" hidden="false" targetId="b43b-a848-fcd3-f503" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Mats" typeId="mats-cost" value="55.0"/>
+        <cost name="Mats" typeId="mats-cost" value="50.0"/>
         <cost name="MP" typeId="mp-cost" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a065-ded7-f5a0-4bd4" name="M16 Badger" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a065-ded7-f5a0-4bd4" name="M16 Badger" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="29ba-da7d-0d31-5ed4" name="M16 Badger" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
@@ -155,11 +179,11 @@
         <categoryLink id="6a0b-e8a0-223b-b828" name="Light Tank" hidden="false" targetId="b43b-a848-fcd3-f503" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Mats" typeId="mats-cost" value="55.0"/>
+        <cost name="Mats" typeId="mats-cost" value="50.0"/>
         <cost name="MP" typeId="mp-cost" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ab1-014e-a843-6f19" name="M24 Grizzly" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4ab1-014e-a843-6f19" name="M24 Grizzly" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="19f6-c8a6-4fe9-b7a4" name="M24 Grizzly" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
@@ -183,7 +207,7 @@
         <cost name="MP" typeId="mp-cost" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f755-63c6-d45c-c547" name="M29 Vindicator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f755-63c6-d45c-c547" name="M29 Vindicator" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="0bd2-749c-7d8c-deb1" name="M29 Vindicator" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
@@ -208,7 +232,7 @@
         <cost name="MP" typeId="mp-cost" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9478-65fe-686d-c298" name="M51 Bison" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9478-65fe-686d-c298" name="M51 Bison" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4c3a-df06-daaa-e68e" name="M51 Bison" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
@@ -221,36 +245,38 @@
       </profiles>
       <infoLinks>
         <infoLink id="804d-6990-b5be-4327" name="105mm HEAT" hidden="false" targetId="cb79fd41-dab3-4eb6-a27a" type="profile"/>
+        <infoLink id="776d-3a1c-e83a-bc46" name="Slat Armor" hidden="false" targetId="58ec-2f03-cfde-51ba" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b956-e247-b0df-2a85" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
         <categoryLink id="3c14-8018-c181-38f5" name="MBT" hidden="false" targetId="dc81-ab91-495d-0042" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Mats" typeId="mats-cost" value="55.0"/>
+        <cost name="Mats" typeId="mats-cost" value="70.0"/>
         <cost name="MP" typeId="mp-cost" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c83-c462-7b87-06f1" name="Wildcats" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9478-65fe-686d-c295" name="M60 Thunderbolt" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6100-8854-e217-ee21" name="Wildcats" hidden="false" typeId="unit-profile-id" typeName="Unit">
+        <profile id="4c3a-df06-daaa-e682" name="M60 Thunderbolt" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">2</characteristic>
-            <characteristic name="A" typeId="armor">N</characteristic>
-            <characteristic name="C" typeId="control">1</characteristic>
+            <characteristic name="M" typeId="movement">1</characteristic>
+            <characteristic name="A" typeId="armor">L</characteristic>
+            <characteristic name="C" typeId="control">0</characteristic>
             <characteristic name="H" typeId="health">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2ffe-f9b9-6295-2121" name="9mm SMG" hidden="false" targetId="e8ac-6290-a0d7-9902" type="profile"/>
+        <infoLink id="804d-6990-b5be-4323" name="155mm ART" hidden="false" targetId="cb79fd41-dab3-4eb6-a271" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5063-1969-cd1c-72dd" name="New CategoryLink" hidden="false" targetId="inf" primary="true"/>
+        <categoryLink id="b956-e247-b0df-2a88" name="Sup" hidden="false" targetId="sup" primary="true"/>
+        <categoryLink id="3c14-8018-c181-38f8" name="Art" hidden="false" targetId="b9a5-fc14-d873-7045" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Mats" typeId="mats-cost" value="5.0"/>
-        <cost name="MP" typeId="mp-cost" value="20.0"/>
+        <cost name="Mats" typeId="mats-cost" value="55.0"/>
+        <cost name="MP" typeId="mp-cost" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -374,6 +400,17 @@
         <characteristic name="H" typeId="weapon-heavy">NA</characteristic>
         <characteristic name="F" typeId="weapon-fortification">NA</characteristic>
         <characteristic name="Keywords" typeId="weapon-keywords">Assault</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb79fd41-dab3-4eb6-a271" name="155mm ART" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="weapon-range">8</characteristic>
+        <characteristic name="N" typeId="weapon-none">9-</characteristic>
+        <characteristic name="L" typeId="weapon-light">5+</characteristic>
+        <characteristic name="M" typeId="weapon-medium">9+</characteristic>
+        <characteristic name="H" typeId="weapon-heavy">13+</characteristic>
+        <characteristic name="F" typeId="weapon-fortification">2</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords">Indirect Fire, Blast</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
