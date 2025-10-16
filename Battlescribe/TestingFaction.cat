@@ -126,6 +126,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="b681-0ed8-5f9d-f582" name="20×102mm AC" hidden="false" targetId="1c6f4c1d-4953-420e-b724" type="profile"/>
+        <infoLink id="0cc4-2427-26af-b81d" name="Transport" hidden="false" targetId="8956-be22-469d-2391" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4c96-4344-4bc1-e6b1" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
