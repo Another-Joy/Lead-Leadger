@@ -1,0 +1,56 @@
+============================================================
+TRAINING SESSION SUMMARY
+============================================================
+
+Session ID: 20251016_163721
+Timestamp: 2025-10-16 16:37:23
+Games Played: 5
+
+------------------------------------------------------------
+OVERALL RESULTS
+------------------------------------------------------------
+Player 1 Wins: 0 (0.0%)
+Player 2 Wins: 0 (0.0%)
+Ties: 5 (100.0%)
+Average Game Length: 50.0 turns
+
+------------------------------------------------------------
+AI LEARNING PROGRESS
+------------------------------------------------------------
+AI 1 Final Win Rate: 0.00%
+AI 2 Final Win Rate: 0.00%
+AI 1 Games Played: 5
+AI 2 Games Played: 5
+
+------------------------------------------------------------
+AI 1 FINAL WEIGHTS
+------------------------------------------------------------
+  building_control         :    90.00
+  capture_building         :    80.00
+  damage_dealt             :    60.00
+  eliminate_enemy          :   100.00
+  health_preservation      :    40.00
+  position_advantage       :    50.00
+  protect_unit             :    70.00
+
+------------------------------------------------------------
+AI 2 FINAL WEIGHTS
+------------------------------------------------------------
+  building_control         :    90.00
+  capture_building         :    80.00
+  damage_dealt             :    60.00
+  eliminate_enemy          :   100.00
+  health_preservation      :    40.00
+  position_advantage       :    50.00
+  protect_unit             :    70.00
+
+------------------------------------------------------------
+GAME-BY-GAME RESULTS
+------------------------------------------------------------
+Game   Winner   Turns   P1 Left   P2 Left   P1 WinRate   P2 WinRate  
+------------------------------------------------------------
+1      TIE      50      3         6         0.00%        0.00%       
+2      TIE      50      1         3         0.00%        0.00%       
+3      TIE      50      4         5         0.00%        0.00%       
+4      TIE      50      6         3         0.00%        0.00%       
+5      TIE      50      4         6         0.00%        0.00%       

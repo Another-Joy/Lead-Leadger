@@ -156,14 +156,6 @@ Vehicles can also move backwards, following the same rules, but each tile moved 
 
 A Vehicle can only move into a tile if the slots it would occupy (given its future direction) are free. In this case, for non-H vehicles, consider the slots it would occupy after turning after the movement (and if it didn't already used this move's turning)
 
-### Aircraft
-Aircraft must always move when activated, and follows the same rules as Vehicles, with the exception that it cannot move backwards and cannot only turn.
-Keep in mind that a lot of Aircraft Attack actions are influenced by how you move, not simply your final position.
-2 Aircraft units cannot occupy the same position at any time. If they would, destroy both colliding units
-
-### Hover
-Hover units have full freedom of movement
-
 ## Rolling
 
 ### Rolling Up
